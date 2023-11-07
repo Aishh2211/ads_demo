@@ -13,6 +13,7 @@ class HomeViewModel extends GetxController{
     homeAdsHelper.loadInterstitialAd();
     homeAdsHelper.loadBannerAd();
     homeAdsHelper.loadNativeAd();
+    homeAdsHelper.loadOpenAppAd();
     listenToAppStateChanges(); //An instance of AdsHelper for managing ads
     super.onReady();
   }
